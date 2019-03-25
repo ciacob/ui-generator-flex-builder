@@ -590,7 +590,7 @@ package ro.ciacob.desktop.ui {
 							component[bindingTargetName] = newValue;
 						}
 					} else {
-						component[dataProviderName] = newValue;
+						component[bindingTargetName] = newValue;
 					}
 				};
 				var bindingSourceName : String = (descriptor[BlueprintKeys.BINDING_SOURCE] as String) || name;
